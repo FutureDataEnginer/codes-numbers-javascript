@@ -1,0 +1,10 @@
+function number(){
+    if((maior=Math.max(a = Math.floor(Math.random()*2))>(b = Math.floor(Math.random()*2)))){
+        console.log(`O valor do maior número: ${a}, valor de A: ${a} e valor de B: ${b}`);
+        if(a = maior){console.log('A é o maior número')}
+        }else if((maior=Math.max(a = Math.floor(Math.random()*2))>(b = Math.floor(Math.random()*2)))){
+          console.log(`O valor do maior número: ${b}, valor de A: ${a} e valor de B: ${b}`);
+        if(b=maior){console.log(`B é o maior número`)}   
+        }else if((a&&b ===0)||(a&&b ===1)){console.log(`A e B possuem os mesmos respectivos valores a seguir: ${a}  e ${b}`)}
+}
+number();
